@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{a2d0a9a7-2478-49b2-ab90-e5931b927c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{f2633db5-0743-4be4-8599-5519e1375a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{c9a127aa-c7a8-439b-a7a5-80732a94972c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameNode">
+      <UniqueIdentifier>{3bc1cdb0-28db-47c0-bbf4-eb68a8fb3418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Loading">
+      <UniqueIdentifier>{92d3c614-05c5-41ba-a32e-d8a4994995c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Manager">
+      <UniqueIdentifier>{cc3f996c-b2a8-4c0d-92ae-b58a3950fa63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\SingletonData">
+      <UniqueIdentifier>{bd7ae7cc-5b31-466d-8457-1d0eb40bb16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Utility">
+      <UniqueIdentifier>{a22cbe19-8f6e-4583-8240-bbddcaacc298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Image">
+      <UniqueIdentifier>{9615466f-c4a7-4386-b352-ce900487e2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\ProgressBar">
+      <UniqueIdentifier>{5e51dd86-a0c1-4370-9f1d-1975025e79cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Camera">
+      <UniqueIdentifier>{9fbaf76e-b749-46c3-aa5c-e71d2be8f7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{85937c08-e1be-4923-a1f9-1c48a135585f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Class">
+      <UniqueIdentifier>{22d79978-d5c6-421e-9990-fa38ae60794d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\INIData">
+      <UniqueIdentifier>{e507240d-1ada-40df-93f4-5d94a5a64b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\LoadingScene">
+      <UniqueIdentifier>{4dbed65f-737b-47aa-b303-9d962255c5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\MenuScene">
+      <UniqueIdentifier>{6b007e69-1397-462d-a347-fbab7c0e44ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Class\Player">
+      <UniqueIdentifier>{673554e6-bc69-49a2-b344-25c50e52cfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Class\Object">
+      <UniqueIdentifier>{17049164-f092-4e96-9711-4dc99ffbdc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene">
+      <UniqueIdentifier>{417e7a93-4b5f-4811-adef-e725a7f02dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage10">
+      <UniqueIdentifier>{672f11bd-2b73-4286-ae7b-08a14712cfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage9">
+      <UniqueIdentifier>{cce5640b-af12-49f1-96ea-ee4542c4f2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage8">
+      <UniqueIdentifier>{c05249d4-a432-4088-94fb-7059197937fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage7">
+      <UniqueIdentifier>{6a1cd376-3fc8-465f-8ffb-59d709032fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage6">
+      <UniqueIdentifier>{d837b555-83b6-4fbc-97c4-d7dc3867c22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage5">
+      <UniqueIdentifier>{c90e042b-1806-402e-95c7-92eee6df075e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage4">
+      <UniqueIdentifier>{5432a7d9-8a4e-4ed1-a26b-f8dae936cde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage3">
+      <UniqueIdentifier>{738b08fe-f024-47b4-8078-79dd78b33227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage2">
+      <UniqueIdentifier>{50b5e1e5-2a73-494c-8539-2fce2e121423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\StageScene\Stage1">
+      <UniqueIdentifier>{dbaefd7f-1c46-4b11-ab80-b8f9d71cde29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Class\Clone">
+      <UniqueIdentifier>{38a2641e-e015-4d1b-9bd1-1e8235b06a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\ResultScene">
+      <UniqueIdentifier>{b4a4828e-ad92-4100-9dbb-7cd8c8fb6e0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>GameFramework2D\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>GameFramework2D\INIData</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>GameFramework2D\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>GameFramework2D\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="playerData.cpp">
+      <Filter>GameFramework2D\SingletonData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>GameFramework2D\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>MainGame\Scene\LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>MainGame\Scene\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>MainGame\Class\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>MainGame\Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="stage4Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="stage5Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage5</Filter>
+    </ClCompile>
+    <ClCompile Include="stage6Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage6</Filter>
+    </ClCompile>
+    <ClCompile Include="stage7Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage7</Filter>
+    </ClCompile>
+    <ClCompile Include="stage8Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage8</Filter>
+    </ClCompile>
+    <ClCompile Include="stage9Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage9</Filter>
+    </ClCompile>
+    <ClCompile Include="stage10Scene.cpp">
+      <Filter>MainGame\Scene\StageScene\Stage10</Filter>
+    </ClCompile>
+    <ClCompile Include="clone.cpp">
+      <Filter>MainGame\Class\Clone</Filter>
+    </ClCompile>
+    <ClCompile Include="resultScene.cpp">
+      <Filter>MainGame\Scene\ResultScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>GameFramework2D\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>GameFramework2D\INIData</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>GameFramework2D\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework2D\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>GameFramework2D\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="playerData.h">
+      <Filter>GameFramework2D\SingletonData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>GameFramework2D\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>MainGame\Scene\LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScene.h">
+      <Filter>MainGame\Scene\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>MainGame\Class\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>MainGame\Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="stage4Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="stage5Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage5</Filter>
+    </ClInclude>
+    <ClInclude Include="stage6Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage6</Filter>
+    </ClInclude>
+    <ClInclude Include="stage7Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage7</Filter>
+    </ClInclude>
+    <ClInclude Include="stage8Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage8</Filter>
+    </ClInclude>
+    <ClInclude Include="stage9Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage9</Filter>
+    </ClInclude>
+    <ClInclude Include="stage10Scene.h">
+      <Filter>MainGame\Scene\StageScene\Stage10</Filter>
+    </ClInclude>
+    <ClInclude Include="clone.h">
+      <Filter>MainGame\Class\Clone</Filter>
+    </ClInclude>
+    <ClInclude Include="resultScene.h">
+      <Filter>MainGame\Scene\ResultScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
